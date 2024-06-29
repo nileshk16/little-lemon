@@ -1,0 +1,20 @@
+.card {
+    background-color: #edefee;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 20%;
+    margin: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .order-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
