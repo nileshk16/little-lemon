@@ -27,7 +27,7 @@ const Nav = () => {
         <ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
-          <li><a onClick={toggleLogin}>Login</a></li>
+          <li><button onClick={toggleLogin}>Login</button></li>
         </ul>
       </nav>
       <Login isOpen={loginOpen} onClose={toggleLogin} />

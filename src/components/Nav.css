@@ -29,7 +29,7 @@
     margin: 0 1rem;
   }
   
-  .nav-links a,
+  /* .nav-links a,
   .nav-links button {
     text-decoration: none;
     color: #333;
@@ -37,7 +37,7 @@
     background: none;
     border: none;
     cursor: pointer;
-  }
+  } */
   
   @media (max-width: 768px) {
     .menu-icon {
