@@ -1,9 +1,10 @@
-import { BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './components/Nav';
 import Main from './components/Main';
 import Menu from './components/Menu';
 import Footer from './components/Footer';
+import About from './components/About';
 
 
 
@@ -11,10 +12,13 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
-    <Nav/>
+    <Nav />
+    <Routes>
+      <Route path="/about" element={<About />} />
+    </Routes>
     <Main/>
     <Menu/>
-    <Footer/>
+    <Footer />
     </Router>
   );
 }
